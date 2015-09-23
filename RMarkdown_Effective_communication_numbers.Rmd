@@ -1,0 +1,33 @@
+---
+title: "Effectively Communicating Numbers"
+author: "Kam Mix"
+date: "9/15/2015"
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_crop: yes
+    fig_height: 6
+    fig_width: 7
+    highlight: tango
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+  html_document:
+    toc: yes
+  word_document: default
+email: wmix@zagmail.gonzaga.edu
+---
+
+This article is a step-by-step recommendation on how to use graphs or tables (tables explained in brief) to clearly communicate quantitative and categorical data in a visual representation.  If the data being presented must be viewed with individual focus or great detail on a specific point, then a table is recommended. If the purpose is to show a trend, a pattern over time, or a comparison, then a graph (or possibly a graph and a chart) is the best method to use. The steps in the process of developing and designing table or graph are broken down into the following:
+
+.	Determine your message and identify your data - The goal here is to allow the data to clearly display the intended message. Information must be identified as belonging to two types; Quantitative Data - the numbers, and Categorical Data - What the numbers measure.  Groups of quantitative data fall into three scales of measure; Nominal - data that differs (nominally) or in name only. Ordinal - data having some order like Small, Medium, and Large, or North, South, East, and West. Or Interval data, information that differs by a subdivision or group, like 55-60, 61-64, 65-69, and 70-74. 
+
+.	Determine if a table, graph, or combination of both is needed to communicate your message. Once the message and the data have been considered, it's time to decide if a Table, Graph, or a combination of both would best serve the purpose. If specific details must be observed from a set of data, a table is recommended. If the purpose of the presentation is to illustrate a change, trend, or comparison then a graph is the best choice.  
+
+.	Determine the best means to encode the values. Since this article is mainly explaining how Graphs are used, 7 examples are given to help select the most appropriate graph to be created. In business, the most popular use of graphs is to illustrate some kind of relationship found in the data. Examples are, Time-series relationships, Ranking relationships, Part of a Whole, a Deviation in measurements, a Distribution of data collected, a Correlation of data points, or a comparison of numbers that have a Nominal relationship. Different styles of graphs are recommended for each situation, from lines to show a time-series to a scatter plot that best indicates a correlation of the data.
+ 
+.	Determine where to display each variable. Typically with graphs, categorical data is arranged across the horizontal or X axis. Quantitative data is then best shown along the vertical or Y axis. This is the most common practice, but exceptions can be made if the re-arrangement better presents the importance of the graph. 
+ 
+.	Determine the best design for the remaining objects. The overall idea is to keep a graph as simple as possible. Adding remaining objects, like a legend, should be determined based on the need and the possible location as to not distract from the graph itself.  The range of scale for the data being presented must also be decided in an effort to accurately and effectively show the desired informational relationship without any mis-representation. 
+.	Determine if particular data should be featured, and if so, how. Gridlines and the location of the X and Y scales should then be determined again. Both gridlines and the location of the scales should serve the purpose to draw focus to the data and the meaning stored in its visual representation.
+Overall, this was a very helpful article that brings together several theories already presented this semester. The guidelines and best practices described will aid in creating more effective graphs especially for presenting business related data. 

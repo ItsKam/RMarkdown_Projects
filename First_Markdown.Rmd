@@ -1,0 +1,38 @@
+---
+title: "Three Levers"
+author: "Team Bogey"
+date: "September 15, 2015"
+output: html_document
+---
+
+#The Three Levers
+## Assigned Questions
+1. Which companies used their assets most productively?
+- From each category: Dell, Estee Lauder, and Google had the highest Total Asset Turnover Ratios indicating an efficient use of assets in their respective categories.
+- Analysis of the ROA shows that Dell, Kimberly Clark and Google had the highest ROA in their respective categories indicating that their asset investments are correlated with sales.
+
+2. Which companies use debt most aggressively in financing their operations?
+- From each category: Dell and Kimberly-Clark had the highest Equity Multiplier in their categories.  In the internet services and retailing category Yahoo! and eBay had similar average Equity Multipliers, however eBay's increased over the 5 year period and Yahoo!'s remained constant, showing a more aggressive transition to debt financing.
+
+3. Which companies ROE would be most attractive to investors, and how was it generated?
+- Initial observation shows that Dell, Kimberly Clark and Google showed the highest average ROE over the period observed in their respective categories.
+
+- Dell and Kimberly Clark increased their ROE's from debt financing activities as indicated by their significant increases in their Equity Multiplier. 
+
+- Google had an attractive ROE from consistent sales and efficient and improved use of their assets.
+
+4. Which company changed the most in how it generated ROE results for investors from year 1 to year 5?  Explain.
+- Apple showed the largest increase in ROE over the period and Proctor and Gamble showed the largest decrease over the period. 
+
+- Apple was able to do this through higher margins and a slight increase in debt financing, creating a significant boost in ROE.
+
+- Proctor and Gamble's ROE decreased significantly from an increase in financing through equity, which reduces their susceptibility to threats in the debt market. 
+
+- Kimberly Clark also showed a significant increase in ROE from heavy debt financing over the period.
+
+For a review of the data click [Data Table](http://www.ineedtofigureouthowtodothis "Click-Me!")
+
+## Here is an example of an in-line image inserted:
+![Hello Kitties](http://animalia-life.com/data_images/devon-rex/devon-rex4.jpg "Awww!")
+
+---
