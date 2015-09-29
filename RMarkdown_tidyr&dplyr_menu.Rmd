@@ -19,19 +19,20 @@ email: wmix@zagmail.gonzaga.edu
 ---
 tidyr & dplyr
 
-		Manipulating data sets using tidyr and dplyr packages within R Studio to tidy and transform data. I thought it would be most useful to arrange the contents of these articles in a menu format for future referral. 
+Manipulating data sets using tidyr and dplyr packages within R Studio to tidy and transform data. I thought it would be most useful to arrange the contents of these articles in a menu format for future referral. 
 
 Packages Utilized
 	library(dplyr)
 	library(tidyr)
 
-tidyr:
+##tidyr:
 The four fundamental functions of data tidying:
-1.	gather() takes multiple columns, and gathers them into key-value pairs: it makes "wide" data longer
-2.	spread() takes two columns (key & value) and spreads in to multiple columns, it makes "long" data wider
-3.	separate() splits a single column into multiple columns
-4.	unite() combines multiple columns into a single column
- 
+
+1.gather() takes multiple columns, and gathers them into key-value pairs: it makes "wide" data longer
+2.spread() takes two columns (key & value) and spreads in to multiple columns, it makes "long" data wider
+3.separate() splits a single column into multiple columns
+4.unite() combines multiple columns into a single column
+
 gather( ) function:
 Objective: Reshaping wide format to long format
 Description: There are times when our data is considered unstacked and a common attribute of concern is spread out across columns. To reformat the data such that these common attributes are gathered together as a single variable, the gather() function will take multiple columns and collapse them into key-value pairs, duplicating all other columns as needed.
@@ -79,16 +80,17 @@ Command examples:
 	unite_DF <- separate_DF %>% unite(Quarter, Time_Interval, Interval_ID, sep = ".")
 	head(unite_DF, 10)
 
+##dplyr:
 
-dplyr:
 The seven fundamental functions of data transformation:
-1.	select() selecting variables
-2.	filter() provides basic filtering capabilities
-3.	group_by() groups data by categorical levels
-4.	summarise() summarise data by functions of choice
-5.	arrange() ordering data
-6.	join() joining separate dataframes
-7.	mutate() create new variables
+
+1.select() selecting variables
+2.filter() provides basic filtering capabilities
+3.group_by() groups data by categorical levels
+4.summarise() summarise data by functions of choice
+5.arrange() ordering data
+6.join() joining separate dataframes
+7.mutate() create new variables
 
 select( ) function:
 Objective: Reduce dataframe size to only desired variables for current task
@@ -160,8 +162,8 @@ Command example:
 inflation_adj <- join.exp %>% mutate(Adj_Exp = Expenditure/Inflation)
 head(inflation_adj)
 
- 
-Works Cited
+
+##Works Cited
 
 Boehmke, B. (2015, February 13). Data Processing with dplyr & tidyr. Retrieved September 28, 2015, from RPubs: https://rpubs.com/bradleyboehmke/data_wrangling
 Grolemund, G. (n.d.). Data Tidying. Retrieved September 26, 2015, from Data Science with R: http://garrettgman.github.io/tidying/
